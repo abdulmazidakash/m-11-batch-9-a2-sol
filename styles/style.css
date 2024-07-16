@@ -136,5 +136,10 @@ input, select{
 .text-content h3{
     text-align: justify;
 }
-{
-    text-align: justify;
+
+/* perfect place section styles starts here  */
+.perfect-place-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 3rem;
+}
