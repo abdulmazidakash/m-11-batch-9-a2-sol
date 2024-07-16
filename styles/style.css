@@ -108,4 +108,33 @@ input, select{
     border: 1px solid rgb(255, 84, 0);
     border-radius: 8px;
     background-color: rgb(255, 84, 0);
+    font-weight: 800;
 }
+
+/* popular section styles start here  */
+.popular-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 3rem;
+}
+.text-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+}
+.text-content p, .text-content li{
+    /* text-align: justify; */
+    line-height: 24px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-size: 16px;
+
+}
+.text-content p, 
+.text-content li,
+.text-content h3{
+    text-align: justify;
+}
+{
+    text-align: justify;
